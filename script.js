@@ -15,7 +15,6 @@ function perform_transaction(){
       alert(` Transaction Successful !!  
       USD ${enterAmount} is successfully transferred  to ${enterName}@gmail.com.`)
 
-      // &copy; Sairam Nomula
       var createPTag = document.createElement("li");
       var textNode = document.createTextNode(`USD ${enterAmount} is transferred to recepient with Email-id ${enterName}@gmail.com on ${Date()}.`);
       createPTag.appendChild(textNode);
